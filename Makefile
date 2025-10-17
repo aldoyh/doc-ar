@@ -10,7 +10,7 @@ CURRENT_GID := $(shell id -g)
 # volumes to our Docker runs.
 #
 
-PATHS := -v .:/var/www/en
+PATHS := -v .:/var/www/ar
 ifneq ($(wildcard ../doc-base/LICENSE),)
 	PATHS += -v ${PWD}/../doc-base:/var/www/doc-base
 endif
@@ -19,14 +19,14 @@ ifneq ($(wildcard ../phd/LICENSE),)
 endif
 
 xhtml: .docker/built
-	docker run --rm ${PATHS} -w /var/www -u ${CURRENT_UID}:${CURRENT_GID} php/doc-en
+	docker run --rm ${PATHS} -w /var/www -u ${CURRENT_UID}:${CURRENT_GID} php/doc-ar
 
 php: .docker/built
 	docker run --rm ${PATHS} -w /var/www -u ${CURRENT_UID}:${CURRENT_GID} \
-		-e FORMAT=php php/doc-en
+		-e FORMAT=php php/doc-ar
 
 build: .docker/built
 
 .docker/built:
-	docker build .docker -t php/doc-en
+	docker build .docker -t php/doc-ar
 	touch .docker/built

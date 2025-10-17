@@ -2,18 +2,18 @@
 <!-- $Revision$ -->
 <!-- splitted from ./index.xml, last change in rev 1.66 -->
   <chapter xml:id="security.current" xmlns="http://docbook.org/ns/docbook">
-   <title>Keeping Current</title>
+   <title>البقاء محدثًا</title>
    <simpara>
-    PHP, like any other large system, is under constant scrutiny and
-    improvement. Each new version will often include both major and
-    minor changes to enhance security and repair any flaws, configuration
-    mishaps, and other issues that will affect the overall security
-    and stability of your system.
+    PHP، مثل أي نظام كبير آخر، تخضع للفحص المستمر و
+    التحسين. سيتضمن كل إصدار جديد غالبًا تغييرات رئيسية و
+    ثانوية لتعزيز الأمان وإصلاح أي عيوب، أو مشاكل
+    تكوين، ومشاكل أخرى من شأنها أن تؤثر على الأمان العام
+    واستقرار نظامك.
    </simpara>
    <simpara>
-    Like other system-level scripting languages and programs, the best
-    approach is to update often, and maintain awareness of the latest
-    versions and their changes.
+    مثل لغات البرمجة النصية والبرامج الأخرى على مستوى النظام، فإن أفضل
+    نهج هو التحديث المتكرر، والحفاظ على الوعي بأحدث
+    الإصدارات وتغييراتها.
    </simpara>
   </chapter>
 

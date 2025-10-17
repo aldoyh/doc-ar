@@ -2,50 +2,50 @@
 <!-- $Revision$ -->
 <!-- splitted from ./index.xml, last change in rev 1.66 -->
   <chapter xml:id="security.general" xmlns="http://docbook.org/ns/docbook">
-   <title>General considerations</title>
+   <title>اعتبارات عامة</title>
    <simpara>
-    A completely secure system is a virtual impossibility, so an
-    approach often used in the security profession is one of balancing
-    risk and usability. If every variable submitted by a user required
-    two forms of biometric validation (such as a retinal scan and a
-    fingerprint), you would have an extremely high level of
-    accountability. It would also take half an hour to fill out a fairly
-    complex form, which would tend to encourage users to find ways of
-    bypassing the security.
+    النظام الآمن تمامًا هو شبه مستحيل، لذا فإن
+    النهج المستخدم غالبًا في مهنة الأمان هو نهج الموازنة بين
+    المخاطر وسهولة الاستخدام. إذا تطلب كل متغير يقدمه المستخدم
+    شكلين من التحقق البيومتري (مثل فحص الشبكية وبصمة
+    الإصبع)، فستحصل على مستوى عالٍ للغاية من
+    المساءلة. كما سيستغرق نصف ساعة لملء
+    نموذج معقد إلى حد ما، مما قد يشجع المستخدمين على إيجاد طرق لتجاوز
+    الأمان.
    </simpara>
    <simpara>
-    The best security is often unobtrusive enough to suit the
-    requirements without the user being prevented from accomplishing
-    their work, or over-burdening the code author with excessive
-    complexity. Indeed, some security attacks are merely exploits of
-    this kind of overly built security, which tends to erode over time.
+    غالبًا ما يكون أفضل أمان غير مزعج بما يكفي لتلبية
+    المتطلبات دون منع المستخدم من إنجاز
+    عمله، أو إرهاق مؤلف الكود بتعقيد
+    مفرط. في الواقع، بعض هجمات الأمان هي مجرد استغلال
+    لهذا النوع من الأمان المبني بشكل مفرط، والذي يميل إلى التآكل بمرور الوقت.
    </simpara>
    <simpara>
-    A phrase worth remembering: A system is only as good as the weakest
-    link in a chain. If all transactions are heavily logged based on
-    time, location, transaction type, etc. but the user is only
-    verified based on a single cookie, the validity of tying the users
-    to the transaction log is severely weakened.
+    عبارة تستحق التذكر: النظام ليس أفضل من أضعف
+    حلقة في السلسلة. إذا تم تسجيل جميع المعاملات بشكل كثيف بناءً على
+    الوقت والموقع ونوع المعاملة وما إلى ذلك، ولكن يتم
+    التحقق من المستخدم فقط بناءً على ملف تعريف ارتباط واحد، فإن صحة ربط المستخدمين
+    بسجل المعاملات تضعف بشدة.
    </simpara>
    <simpara>
-    When testing, keep in mind that you will not be able to test all
-    possibilities for even the simplest of pages. The input you
-    may expect will be completely unrelated to the input given by
-    a disgruntled employee, a cracker with months of time on their
-    hands, or a housecat walking across the keyboard. This is why it's
-    best to look at the code from a logical perspective, to discern
-    where unexpected data can be introduced, and then follow how it is
-    modified, reduced, or amplified.
+    عند الاختبار، ضع في اعتبارك أنك لن تتمكن من اختبار جميع
+    الاحتمالات حتى لأبسط الصفحات. قد يكون الإدخال الذي
+    تتوقعه غير مرتبط تمامًا بالإدخال المقدم من
+    موظف غاضب، أو مخترق لديه شهور من الوقت المتاح،
+    أو قطة منزلية تمشي عبر لوحة المفاتيح. لهذا السبب من
+    الأفضل النظر إلى الكود من منظور منطقي، لتمييز
+    أين يمكن إدخال البيانات غير المتوقعة، ثم متابعة كيفية تعديلها
+    أو تقليلها أو تضخيمها.
    </simpara>
    <simpara>
-    The Internet is filled with people trying to make a name for
-    themselves by breaking your code, crashing your site, posting
-    inappropriate content, and otherwise making your day interesting.
-    It doesn't matter if you have a small or large site, you are
-    a target by simply being online, by having a server that can be
-    connected to. Many cracking programs do not discern by size, they
-    simply trawl massive IP blocks looking for victims. Try not to
-    become one.
+    الإنترنت مليء بالأشخاص الذين يحاولون إنشاء اسم
+    لأنفسهم من خلال كسر كودك، أو تعطيل موقعك، أو نشر
+    محتوى غير لائق، أو جعل يومك مثيرًا بطريقة أخرى.
+    لا يهم إذا كان لديك موقع صغير أو كبير، فأنت
+    هدف بمجرد كونك متصلاً بالإنترنت، بوجود خادم يمكن
+    الاتصال به. العديد من برامج الاختراق لا تميز بالحجم، إنها
+    تمشط كتل IP ضخمة بحثًا عن ضحايا. حاول ألا
+    تصبح واحدًا.
    </simpara>
   </chapter>
 

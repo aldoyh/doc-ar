@@ -3,45 +3,42 @@
 
 <preface xml:id="preface" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook">
  <info>
-  <titleabbrev>Preface</titleabbrev>
-  <title>About this manual</title>
+  <titleabbrev>مقدمة</titleabbrev>
+  <title>حول هذا الدليل</title>
   <abstract>
    <simpara>
-    <acronym>PHP</acronym>, which stands for <emphasis>PHP: Hypertext
-    Preprocessor</emphasis>, is a widely-used open source general-purpose
-    scripting language that is especially suited for web
-    development and can be embedded into HTML. Its syntax draws
-    upon C, Java, and Perl, and is easy to learn. The main goal of
-    the language is to allow web developers to write dynamically
-    generated web pages quickly, but you can do much more with PHP.
+    <acronym>PHP</acronym>، والتي تعني <emphasis>PHP: Hypertext
+    Preprocessor</emphasis>، هي لغة برمجة نصية مفتوحة المصدر ومستخدمة على نطاق واسع
+    ومناسبة بشكل خاص لتطوير الويب ويمكن تضمينها في HTML. يستند بناء
+    جملتها على C وJava وPerl، وسهلة التعلم. الهدف الرئيسي من
+    اللغة هو السماح لمطوري الويب بكتابة صفحات ويب ديناميكية
+    بسرعة، ولكن يمكنك القيام بأكثر من ذلك بكثير مع PHP.
    </simpara>
   </abstract>
  </info>
  <para>
-  This manual consists primarily of a <link linkend="funcref">
-  function reference</link>, but also contains a 
-  <link linkend="langref">language reference</link>, explanations
-  of some of PHP's major <link linkend="features">features</link>, 
-  and other <link linkend="appendices">supplemental</link> 
-  information.
+  يتكون هذا الدليل بشكل أساسي من <link linkend="funcref">
+  مرجع الدوال</link>، ولكنه يحتوي أيضًا على 
+  <link linkend="langref">مرجع اللغة</link>، وشروحات
+  لبعض <link linkend="features">ميزات</link> PHP الرئيسية، 
+  و<link linkend="appendices">معلومات تكميلية</link> أخرى.
  </para>
  <simpara>
-  This manual includes information covering the two most recent major
-  releases of PHP (versions 7 and 8). Information about extensions
-  that are no longer included with those versions of PHP and changes to
-  functions in earlier versions is not included. Archives of older
-  versions of the manual that document previous releases of PHP are
-  available from the "More documentation" section on the
-  <link xlink:href="&url.php.docs;">"Documentation" page of the PHP
-  website</link>.
+  يتضمن هذا الدليل معلومات تغطي أحدث إصدارين رئيسيين
+  من PHP (الإصداران 7 و 8). لا يتم تضمين معلومات حول الإضافات
+  التي لم تعد مضمنة في هذه الإصدارات من PHP والتغييرات على
+  الدوال في الإصدارات السابقة. تتوفر أرشيفات الإصدارات القديمة
+  من الدليل التي توثق إصدارات PHP السابقة من قسم "مزيد من التوثيق"
+  في <link xlink:href="&url.php.docs;">"صفحة التوثيق" على
+  موقع PHP</link>.
  </simpara>
  <para>
-  You can download this manual in several formats at <link
+  يمكنك تنزيل هذا الدليل بعدة تنسيقات على <link
   xlink:href="&url.php.doc.downloads;">&url.php.doc.downloads;</link>.
-  More information about how this manual is developed can be found in the
-  <link linkend="about">'About the manual'</link> appendix. If you are
-  interested in the <link linkend="history">history of PHP</link>,
-  visit the relevant appendix.
+  يمكن العثور على مزيد من المعلومات حول كيفية تطوير هذا الدليل في
+  ملحق <link linkend="about">'حول الدليل'</link>. إذا كنت مهتمًا
+  بـ <link linkend="history">تاريخ PHP</link>،
+  قم بزيارة الملحق ذي الصلة.
  </para>
   
  &contributors;

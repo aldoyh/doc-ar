@@ -2,24 +2,23 @@
 <!-- $Revision$ -->
  <chapter xml:id="introduction" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <info>
-   <titleabbrev>Introduction</titleabbrev>
-   <title>What is PHP and what can it do?</title>
+   <titleabbrev>مقدمة</titleabbrev>
+   <title>ما هي PHP وماذا يمكنها أن تفعل؟</title>
   </info>
 
   <section xml:id="intro-whatis" annotations="chunk:false">
-   <info><title>What is PHP?</title></info>
+   <info><title>ما هي PHP؟</title></info>
    <para>
-    <acronym>PHP</acronym> (recursive acronym for <emphasis>PHP: Hypertext
-    Preprocessor</emphasis>) is a widely-used open source general-purpose
-    scripting language that is especially suited for web
-    development and can be embedded into HTML.
+    <acronym>PHP</acronym> (اختصار تكراري لـ <emphasis>PHP: Hypertext
+    Preprocessor</emphasis>) هي لغة برمجة نصية مفتوحة المصدر ومستخدمة على نطاق واسع
+    ومناسبة بشكل خاص لتطوير الويب ويمكن تضمينها في HTML.
    </para>
    <para>
-    Nice, but what does that mean? An example:
+    جميل، ولكن ماذا يعني ذلك؟ مثال:
    </para>
    <para>
     <example>
-     <info><title>An introductory example</title></info>
+     <info><title>مثال تمهيدي</title></info>
      <programlisting role="php">
 <![CDATA[
 <!DOCTYPE html>
@@ -40,142 +39,142 @@
     </example>
    </para>
    <para>
-    Instead of lots of commands to output HTML (as seen in C or Perl),
-    PHP pages contain HTML with embedded code that does
-    <replaceable>something</replaceable> (in this case, output <computeroutput>Hi, I'm a PHP script!</computeroutput>).
-    The PHP code is enclosed in special <link
-    linkend="language.basic-syntax.phpmode">start and end processing
-    instructions <code>&lt;?php</code> and <code>?&gt;</code></link>
-    that allow jumping in and out of <quote>PHP mode.</quote>
+    بدلاً من الكثير من الأوامر لإخراج HTML (كما هو الحال في C أو Perl)،
+    تحتوي صفحات PHP على HTML مع كود مضمّن يقوم بـ
+    <replaceable>شيء ما</replaceable> (في هذه الحالة، يخرج <computeroutput>Hi, I'm a PHP script!</computeroutput>).
+    كود PHP مُحاط بـ <link
+    linkend="language.basic-syntax.phpmode">تعليمات معالجة البداية والنهاية الخاصة
+    <code>&lt;?php</code> و <code>?&gt;</code></link>
+    التي تسمح بالانتقال من وإلى <quote>وضع PHP.</quote>
    </para>
    <para>
-    What distinguishes PHP from something like client-side JavaScript
-    is that the code is executed on the server, generating HTML which
-    is then sent to the client. The client would receive
-    the results of running that script, but would not know
-    what the underlying code was. A web server can even be configured
-    to process all HTML files with PHP, and then there's no
-    way that users can tell that PHP is being used.
+    ما يميز PHP عن شيء مثل JavaScript من جانب العميل
+    هو أن الكود يُنفذ على الخادم، ويُنتج HTML الذي
+    يُرسل بعد ذلك إلى العميل. سيتلقى العميل
+    نتائج تشغيل ذلك البرنامج النصي، لكنه لن يعرف
+    ما هو الكود الأساسي. يمكن حتى تكوين خادم الويب
+    لمعالجة جميع ملفات HTML باستخدام PHP، وبعد ذلك لا توجد
+    طريقة يمكن للمستخدمين من خلالها معرفة أن PHP يتم استخدامها.
    </para>
    <para>
-    The best part about using PHP is that it is extremely simple
-    for a newcomer, but offers many advanced features for
-    a professional programmer. Don't be afraid to read the long
-    list of PHP's features. With PHP, almost anyone can get up and running and be
-    writing simple scripts in no time at all.
+    أفضل جزء في استخدام PHP هو أنها بسيطة للغاية
+    للمبتدئين، ولكنها تقدم العديد من الميزات المتقدمة
+    للمبرمجين المحترفين. لا تخف من قراءة القائمة الطويلة
+    لميزات PHP. مع PHP، يمكن لأي شخص تقريبًا البدء والتشغيل وكتابة
+    برامج نصية بسيطة في أي وقت من الأوقات على الإطلاق.
    </para>
    <para>
-    Although PHP's development is focused on server-side scripting,
-    much more can be done with it. Read on, and see more in the
-    <link linkend="intro-whatcando">What can PHP do?</link> section,
-    or go right to the <link linkend="tutorial">introductory
-    tutorial</link> to jump straight to learning about web programming.
+    على الرغم من أن تطوير PHP يركز على البرمجة من جانب الخادم،
+    يمكن القيام بأكثر من ذلك بكثير. تابع القراءة، وشاهد المزيد في قسم
+    <link linkend="intro-whatcando">ماذا يمكن لـ PHP أن تفعل؟</link>،
+    أو انتقل مباشرة إلى <link linkend="tutorial">الدرس
+    التمهيدي</link> للانتقال مباشرة إلى تعلم برمجة الويب.
    </para>
   </section>
 
   <section xml:id="intro-whatcando" annotations="chunk:false">
-   <info><title>What can PHP do?</title></info>
+   <info><title>ماذا يمكن لـ PHP أن تفعل؟</title></info>
    <para>
-    Anything. PHP is mainly focused on server-side scripting,
-    so it can do anything any other CGI program can do, such
-    as collect form data, generate dynamic page content, or
-    send and receive cookies. But PHP can do much more.
+    أي شيء. تركز PHP بشكل أساسي على البرمجة من جانب الخادم،
+    لذا يمكنها القيام بأي شيء يمكن لأي برنامج CGI آخر القيام به، مثل
+    جمع بيانات النماذج، أو إنشاء محتوى صفحة ديناميكي، أو
+    إرسال واستقبال ملفات تعريف الارتباط. لكن PHP يمكنها فعل أكثر من ذلك بكثير.
    </para>
    <para>
-    There are two main areas where PHP scripts are used.
+    هناك مجالان رئيسيان يتم فيهما استخدام برامج PHP النصية.
     <itemizedlist>
      <listitem>
       <simpara>
-       Server-side scripting. This is the most widely used
-       and main target field for PHP. Three things are needed
-       to make this work: the PHP parser (CGI or server
-       module), a web server, and a web browser. All these can
-       run on a local machine in order to just experiment
-       with PHP programming. See the
-       <link linkend="install">installation instructions</link>
-       section for more information.
+       البرمجة من جانب الخادم. هذا هو المجال الأكثر استخدامًا
+       والمجال المستهدف الرئيسي لـ PHP. هناك حاجة إلى ثلاثة أشياء
+       لجعل هذا يعمل: محلل PHP (CGI أو وحدة
+       الخادم)، وخادم ويب، ومتصفح ويب. يمكن تشغيل كل هذه
+       على جهاز محلي من أجل التجربة فقط
+       مع برمجة PHP. راجع قسم
+       <link linkend="install">تعليمات التثبيت</link>
+       لمزيد من المعلومات.
       </simpara>
      </listitem>
      <listitem>
       <simpara>
-       Command line scripting. A PHP script can be run
-       without any server or browser, only the
-       PHP parser is needed to use it this way.
-       This type of usage is ideal for scripts regularly
-       executed using <command>cron</command> (on Unix or macOS) or Task Scheduler (on
-       Windows). These scripts can also be used for simple text
-       processing tasks. See the section about
-       <link linkend="features.commandline">Command line usage of PHP</link>
-       for more information.
+       البرمجة من سطر الأوامر. يمكن تشغيل برنامج PHP النصي
+       بدون أي خادم أو متصفح، فقط
+       محلل PHP مطلوب لاستخدامه بهذه الطريقة.
+       هذا النوع من الاستخدام مثالي للبرامج النصية المنفذة بانتظام
+       باستخدام <command>cron</command> (على Unix أو macOS) أو Task Scheduler (على
+       Windows). يمكن أيضًا استخدام هذه البرامج النصية لمهام معالجة
+       النصوص البسيطة. راجع القسم حول
+       <link linkend="features.commandline">استخدام PHP من سطر الأوامر</link>
+       لمزيد من المعلومات.
       </simpara>
      </listitem>
     </itemizedlist>
    </para>
    <para>
-    PHP can be <link linkend="install">used</link> on all major operating systems, including
-    Linux, many Unix variants (including HP-UX, Solaris and OpenBSD),
-    Microsoft Windows, macOS, RISC OS, and probably others.
-    PHP also has support for most of the web servers today. This
-    includes Apache, IIS, and many others. And this includes any
-    web server that can utilize the FastCGI PHP binary, like lighttpd
-    and nginx. PHP works as either a module, or as a CGI processor.
+    يمكن <link linkend="install">استخدام</link> PHP على جميع أنظمة التشغيل الرئيسية، بما في ذلك
+    Linux، والعديد من متغيرات Unix (بما في ذلك HP-UX وSolaris وOpenBSD)،
+    وMicrosoft Windows وmacOS وRISC OS، وربما غيرها.
+    تدعم PHP أيضًا معظم خوادم الويب اليوم. يشمل هذا
+    Apache وIIS والعديد من الخوادم الأخرى. ويشمل هذا أي
+    خادم ويب يمكنه استخدام ملف PHP الثنائي FastCGI، مثل lighttpd
+    وnginx. تعمل PHP إما كوحدة أو كمعالج CGI.
    </para>
    <para>
-    So with PHP, developers have the freedom of choosing an operating
-    system and a web server. Furthermore, they also have the choice
-    of using procedural programming or object-oriented
-    programming (OOP), or a mixture of them both.
+    لذا مع PHP، لدى المطورين حرية اختيار نظام تشغيل
+    وخادم ويب. علاوة على ذلك، لديهم أيضًا خيار
+    استخدام البرمجة الإجرائية أو البرمجة الموجهة للكائنات
+    (OOP)، أو مزيج منهما معًا.
    </para>
    <para>
-    PHP is not limited to outputting HTML. PHP's abilities include
-    outputting rich file types, such as images or PDF files, encrypting data,
-    and sending emails. It can also output easily any text, such as JSON
-    or XML. PHP can autogenerate these files, and save them in the
-    file system, instead of printing it out, forming a server-side cache for
-    dynamic content.
+    لا تقتصر PHP على إخراج HTML. تشمل قدرات PHP
+    إخراج أنواع ملفات غنية، مثل الصور أو ملفات PDF، وتشفير البيانات،
+    وإرسال رسائل البريد الإلكتروني. يمكنها أيضًا إخراج أي نص بسهولة، مثل JSON
+    أو XML. يمكن لـ PHP إنشاء هذه الملفات تلقائيًا، وحفظها في
+    نظام الملفات، بدلاً من طباعتها، مما يشكل ذاكرة تخزين مؤقت من جانب الخادم
+    للمحتوى الديناميكي.
    </para>
    <para>
-    One of the strongest and most significant features in PHP is its
-    support for a <link linkend="refs.database">wide range of databases</link>. 
-    Writing a database-enabled web page is incredibly simple using one of
-    the database specific extensions (e.g., for <link linkend="book.mysqli">mysql</link>),
-    or using an abstraction layer like <link linkend="book.pdo">PDO</link>, or connect
-    to any database supporting the Open Database Connection standard via the
-    <link linkend="book.uodbc">ODBC</link> extension. Other databases may utilize
-    <link linkend="book.curl">cURL</link> or <link linkend="book.sockets">sockets</link>,
-    like CouchDB.
+    إحدى أقوى الميزات وأكثرها أهمية في PHP هي
+    دعمها لـ <link linkend="refs.database">مجموعة واسعة من قواعد البيانات</link>. 
+    كتابة صفحة ويب ممكّنة لقاعدة البيانات بسيطة بشكل لا يصدق باستخدام إحدى
+    إضافات قاعدة البيانات المحددة (على سبيل المثال، لـ <link linkend="book.mysqli">mysql</link>)،
+    أو باستخدام طبقة تجريد مثل <link linkend="book.pdo">PDO</link>، أو الاتصال
+    بأي قاعدة بيانات تدعم معيار Open Database Connection عبر
+    إضافة <link linkend="book.uodbc">ODBC</link>. قد تستخدم قواعد البيانات الأخرى
+    <link linkend="book.curl">cURL</link> أو <link linkend="book.sockets">sockets</link>،
+    مثل CouchDB.
    </para>
    <para>
-    PHP also has support for talking to other services using protocols
-    such as LDAP, IMAP, SNMP, NNTP, POP3, HTTP, COM (on Windows) and
-    countless others. It can also open raw network sockets and
-    interact using any other protocol. PHP has support for the WDDX
-    complex data exchange between virtually all Web programming
-    languages. Talking about interconnection, PHP has support for
-    instantiation of Java objects and using them transparently
-    as PHP objects.
+    تدعم PHP أيضًا التحدث إلى خدمات أخرى باستخدام بروتوكولات
+    مثل LDAP وIMAP وSNMP وNNTP وPOP3 وHTTP وCOM (على Windows) و
+    عدد لا يحصى من البروتوكولات الأخرى. يمكنها أيضًا فتح مقابس الشبكة الخام
+    والتفاعل باستخدام أي بروتوكول آخر. تدعم PHP
+    تبادل البيانات المعقدة WDDX بين جميع لغات برمجة الويب تقريبًا.
+    بالحديث عن الترابط، تدعم PHP
+    إنشاء كائنات Java واستخدامها بشفافية
+    ككائنات PHP.
    </para>
    <para>
-    PHP has useful <link linkend="refs.basic.text">text processing</link> features,
-    which includes the Perl compatible regular expressions (<link linkend="book.pcre">PCRE</link>),
-    and many extensions and tools to <link linkend="refs.xml">parse and access XML documents</link>.
-    PHP standardizes all of the XML extensions on the solid base of <link linkend="book.libxml">libxml2</link>,
-    and extends the feature set adding <link linkend="book.simplexml">SimpleXML</link>,
-    <link linkend="book.xmlreader">XMLReader</link> and <link linkend="book.xmlwriter">XMLWriter</link> support.
+    تحتوي PHP على ميزات مفيدة لـ <link linkend="refs.basic.text">معالجة النصوص</link>،
+    والتي تتضمن التعبيرات العادية المتوافقة مع Perl (<link linkend="book.pcre">PCRE</link>)،
+    والعديد من الإضافات والأدوات لـ <link linkend="refs.xml">تحليل والوصول إلى مستندات XML</link>.
+    توحّد PHP جميع إضافات XML على الأساس الصلب لـ <link linkend="book.libxml">libxml2</link>،
+    وتوسع مجموعة الميزات بإضافة دعم <link linkend="book.simplexml">SimpleXML</link>
+    و<link linkend="book.xmlreader">XMLReader</link> و<link linkend="book.xmlwriter">XMLWriter</link>.
    </para>
    <para>
-    And many other interesting extensions exist, which are categorized both
-    <link linkend="extensions">alphabetically</link> and by <link linkend="funcref">category</link>.
-    And there are additional <link linkend="install.pecl.intro">PECL extensions</link> that may or may not be documented
-    within the PHP manual itself, like <link xlink:href="&url.xdebug;">XDebug</link>.
+    وتوجد العديد من الإضافات المثيرة للاهتمام الأخرى، والتي يتم تصنيفها
+    <link linkend="extensions">أبجديًا</link> وحسب <link linkend="funcref">الفئة</link>.
+    وهناك <link linkend="install.pecl.intro">إضافات PECL</link> إضافية قد تكون أو لا تكون موثقة
+    ضمن دليل PHP نفسه، مثل <link xlink:href="&url.xdebug;">XDebug</link>.
    </para>
    <para>
-    This page is not enough to list all
-    the features and benefits PHP can offer. Read on in
-    the sections about <link linkend="install">installing
-    PHP</link>, and see the <link linkend="funcref">function
-    reference</link> part for explanation of the extensions
-    mentioned here.
+    هذه الصفحة ليست كافية لسرد جميع
+    الميزات والفوائد التي يمكن أن تقدمها PHP. تابع القراءة في
+    الأقسام حول <link linkend="install">تثبيت
+    PHP</link>، وشاهد جزء <link linkend="funcref">مرجع
+    الدوال</link> للحصول على شرح للإضافات
+    المذكورة هنا.
    </para>
   </section>
 
